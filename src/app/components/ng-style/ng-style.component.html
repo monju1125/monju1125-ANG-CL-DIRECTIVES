@@ -11,7 +11,7 @@
     <button (click)="increaseFontSize()">increase font size</button>
 
     <div class="todo-container">
-        <p>TODO: Apply the same ngStyle rule to me</p>
+        <p [ngStyle] = "{ 'font-size' : fontSize}">TODO: Apply the same ngStyle rule to me</p>
     </div>
 
 </div>
